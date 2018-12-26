@@ -1,89 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tara O'Grady</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <title>Tara O'Grady</title>
+</head>
+
 <body>
     <header>
-    <div class="nav">
-        <div class="nav-header">
-            <div class="nav-title">TO</div>
-        </div>
-        <div class="nav-btn">
-            <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-        <input type="checkbox" id="nav-check">
-        <div class="nav-links">
-            <a href="#about" target="_self">About</a>
-            <a href="#portfolio" target="_self">Portfolio</a>
-           
-        </div>
-    </div>
+        <div class="nav">
+            <div class="nav-header">
+                <div class="nav-title"> <a href="index.html">TO</a></div>
+            </div>
+            <div class="nav-btn"> <label for="nav-check"> <span> </span> <span> </span> <span> </span> </label> </div> <input type="checkbox" id="nav-check">
+            <div class="nav-links"> 
+                 <a href="index.html" target="self">My Work</a> 
+                <a href="about.html" target="_self"> About</a> <a href="contact.html" target="self">Contact</a> </div>
+       </div>
     </header>
-    
     <main>
-    
-        <!--<div class="box">
-            <img id="laptop" src="assets/laptop1.jpg" alt="">
-        </div> -->
-        <div id="about">
-            <div id="time">
-            <img id="timeline" src="assets/timeline.png" alt="Timeline of what got Tara interested in UX. She first attended Manhattan College as a Chemical Engineer and hated it. During that time she took an artificial psychology course that she liked. She then went to the State University of New York at Oswego with a major in mathematics. The class that impacted her the most during this time was an introduction to Cognitive Psychology. Sadly, she decided she did not want to continue college and left, working full time as a medical scribe in an Emergency Room. The learning environment motivated her to go back to school, and she received a B.A. in Cognitive Science with minors in mathematics and psychology. She found herself drawn to UX roles, and returned to complete a MA in Human-Computer Interaction. During this time she has been able to complete an internship in Vietnam and co-found an organization abroad that it focused at closing the gender gap in technology. She will complete her MA in December, 2018.">
+        <div class="container">
+            <div id="Introduction">
+                <h1>Hi, I'm Tara.</h1>
+                <p>I am a Human-Computer Interaction MA candidate.</p>
+                <p>I specialize in UX research &#43; UX design.</p>
             </div>
-            
-            <div id="me">
-                <h1>About me</h1>
-                <p>Hello! I am a Human-Computer Interaction MA candidate at the State University of New York at Oswego. I completed my undergraduate degree in Cognitive Science and have a strong interests in UX research, UX design, Virtual Reality, Augmented Reality, Affective Computing, and Data Visualization. </p>
-                <p>I am an advocate for closing the gender gap in technology, and am an active member of Girls Who Code. Annie Reynolds and I started the Oswego Girls Who Code Chapter in 2017 and have been active facilitators since.</p>
-                
-	           <p> While in Vietnam this past summer Annie Reynolds and I were asked to host a fireside chat at SURF 2018, an international startup conference on the topic "Empowering Girls Through Coding."</p>
-                
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/jvJ8OxmeoMY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <p>Additionally, we presented at Google I/O Extended Mien Trung on the topic "Augmented Reality and its applications to educational technology" in collaboration with Jolanda Tromp. </p>
-            
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/GU5pKN9t01Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            
-            <h2>In the News</h2>
-                <section>
-            <a href="https://www.oswego.edu/news/spotlight/tara-ogrady">Spotlight Feature</a>
-            <p>Spotlight: Tara O'Grady</p>
-            </section>
-            <section>
-            <a href="https://www.iheartoswego.com/suny-oswego-students-learn-share-insights-in-vietnam.html">iheartoswego.com</a>
-            <p>Seven SUNY Oswego human-computer interaction students spent part of their summer in Vietnam working on advanced technology, making new connections and sharing their knowledge.</p>
-            </section>
-            <section>
-            <a href="https://oswegocountytoday.com/girls-who-code-aims-to-increase-number-of-women-in-tech-jobs/community/">Oswego County Today</a>
-            <p>Girls Who Code Aims To Increase Number of Women In Tech Jobs</p>
-            </section>
-                </div>
+            <h2>My work</h2>
+            <div class="grid">
+                <a href="anatomyNow.html"><div class="project" id="cvs" data-aos="fade-up-left">
+                    <img src="assets/cvs.jpg" alt="laptop on desk portraying Anatomy Now page">
+                    <div class="info">
+                        Anatomy Now</div>
+                    </div></a>
+
+               <a href="dragontown.html"><div class="project" id="dragontown" data-aos="fade-up-left">
+                    <img src="assets/dragontownALL.jpg" alt="Dragontown homepage shown on mobile, tablet, and desktop screen sizes">
+                    <div class="info">
+                        Dragontown</div>
+                   </div></a>
+                <a href="gwc.html"><div class="project" id="gwc" data-aos="fade-up-left">
+                    <img src="assets/gwcDesktop.jpg" alt="girls who code club site shown on desktop screen">
+                    <div class="info">
+                        Girls Who Code Club Site</div>
+                    </div></a>
+                <a href="ss.html"><div class="project id=space" data-aos="fade-up-left">
+                    <img src="assets/SSholdmenu.jpg" alt="Space Spuds menu screen shown on mobile">
+                    <div class="info">
+                        Space Spuds Food Truck</div>
+                    </div></a>
+                <a href="scrabble.html"><div id="scrabble" class="project" data-aos="fade-up-left">
+                    <img src="assets/scrabbleTab.jpg" alt="oswebble app shown on tablet">
+                    <div class="info">Oswebble</div>
+                    </div>
+                </a>
+                <a href="firstYear.html"><div id="firstyear" class="project" data-aos="fade-up-left">
+                    <img src="assets//firstyear.jpg" alt="first year homepage shown on laptop">
+                    <div class="info">
+                        SUNY Oswego First Year Page</div>
+                    </div></a>
+                <a href="https://public.tableau.com/profile/tara.o.grady#!/"><div id="dataviz" class="project" data-aos="fade-up-left" data-aos-duration="1000">
+                    <img src="assets/tableau.jpg" alt="Tara's Tableau portfolio displayed on a laptop screen">
+                    <div class="info">
+                        Data Visualizations</div>
+                    </div></a>
             </div>
-        <section><a href="https://public.tableau.com/profile/tara.o.grady#!/">Check out my data visualizations on Tableau!</a></section>
-        <div class="color">
-            <h2>Portfolio</h2>
-        <div id="portfolio">
-            
-            <a href="scrabble.html"><img class="pp" src="assets/ScrabbleView.png" alt="scrabble-like application built by Software Design course"><div><div>Scrabble</div></div></a>
-            
-            <a href="firstYear.html"><img class="pp" src="assets/First-year.PNG" alt="screenshot of the redesigned first year page for State University of New York at Oswego"></a>
-            
-            <a href="https://5uyaqw.axshare.com/#g=1&p=home"><img class="pp" src="assets/skeletal.PNG" alt="screenshot of redesign for medical desktop application"></a>
-            <a href="https://github.com/tealyn/gwcOswego.github.io"><img class="pp" src="assets/gwc.PNG" alt="screenshot of local girls who code club site created during a hackathon"></a>
-            <a href="spaceSpuds.html"><img class="pp" src="assets/ss.gif"alt="screenshot of the about page on a mobile design for a fictional food truck company called Space Spuds"></a>
-            
         </div>
-        </div>
-        <!--<footer><div>Icons made by <a href="https://www.flaticon.com/authors/smartline" title="Smartline">Smartline</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-        <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-        <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div></footer> -->
+        <footer>&copy;2018 Tara O'Grady</footer>
     </main>
-    </body> 
-    </html>
+    <script>
+    AOS.init({
+        duration: 1200,
+    })
+
+</script>
+</body>
+
+
+</html>

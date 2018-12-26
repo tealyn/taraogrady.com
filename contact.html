@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <title>Tara O'Grady</title>
+</head> 
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav-header">
+                <div class="nav-title"> <a href="index.html">TO</a></div>
+            </div>
+            <div class="nav-btn"> <label for="nav-check"> <span> </span> <span> </span> <span> </span> </label> </div> <input type="checkbox" id="nav-check">
+            <div class="nav-links"> <a href="index.html" target="self">My Work</a> <a href="about.html" target="_self"> About</a> <a href="contact.html" target="self">Contact</a> </div>
+       </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Lets chat...</h1>
+            <div class="formContain">
+            <form action="https://formspree.io/tlyn.og@gmail.com" method="POST">
+                <input type="text" placeholder="Your Name" name="name">
+                <input type="email" placeholder="Your Email" name="_replyto">
+                <textarea id="mess" placeholder="Message" name="text" style="width:6rem, height:3rem;"></textarea>
+                <input id="button" type="submit" value="Send">
+            </form>
+            </div>
+        </div>
+        <footer>&copy;2018 Tara O'Grady</footer>
+    </main>
+</body>
+<script>
+    AOS.init({
+        duration: 1000,
+    })
+</script>
+
+</html>

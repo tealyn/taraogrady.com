@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <title>Tara O'Grady</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav-header">
+                <div class="nav-title"> <a href="index.html">TO</a></div>
+            </div>
+            <div class="nav-btn"> <label for="nav-check"> <span> </span> <span> </span> <span> </span> </label> </div> <input type="checkbox" id="nav-check">
+            <div class="nav-links"><a href="index.html" target="self">My Work</a> <a href="about.html" target="_self"> About</a> <a href="contact.html" target="self">Contact</a> </div>
+        </div> 
+    </header>
+    <main>
+        <div class="container" id="pages">
+            <img class="topImage" src="assets/cvs.jpg" alt=" Prototype for Anatomy Now Desktop application">
+            <h1 class="pName">Anatomy Now</h1>
+            <div class="pInfo">
+                <div class="overview">
+                    <h2>Overview</h2>
+                    <p>Anatomy Now is an application developed by the Center of Visualization and Simulation (CVS) at Duy Tan University in Da Nang, Vietnam. The application models human body systems and organs to help students learn anatomy and spans across three platforms: desktop, mobile, and virtual reality. </p>
+
+                    <p>I joined the CVS team as a UX research and design intern during the summer of 2018 as they were preparing to present at the RISE startup conference in Hong Kong. My team was tasked with conducting a heuristic evaluation of an existing desktop interface and creating prototypes for the redesigned interface. </p>
+
+                    <h2>Front-end Analysis</h2>
+                    <h3>User Analysis</h3>
+                    <p>My team and I identified who the target audience or this product was; who would be using it, the manner that they would be using it, and what tasks they would need to be able to accomplish. We generated user personas to capture the characteristics, goals, experience, wants, wishes, needs, and frustrations of our target audience.</p>
+                </div>
+                <div class="research">
+                    <h2>Evaluation</h2>
+                    <h3>Identifying problem areas</h3>
+                    <p>After functional and task analysis of the interface through observation and self-trial was conducted, my team identified problem areas to focus on for our re-design. We focused on the menu and navigation for the main screen and the secondary screen where users can interact and learn detailed information about a particular system. </p>
+                    <div>
+                        <h3>For the main screen:</h3>
+                                <img src="assets/10.jpg" alt="screenshot of original interface design">
+                                <ul>
+                                    <li><b>Poor use of screen space</b></li>
+                                </ul>
+
+
+                                <section>
+                                    <p>On the original design, there was a large amount of whitespace that was unused on the screen. The radial menu was compact, making text and images illegible.</p>
+                                </section>
+                                <ul>
+                                    <li> <b>Poor labeling of systems and subsystems</b></li>
+                                </ul>
+
+                                <section>
+                                    <p>Systems were identified by icons and dynamic text at the top of the menu. This requires a user to have previous knowledge of a body system to select it without hovering over each icon. The images are small and unclear.</p>
+                                </section>
+
+                                <ul>
+                                    <li><b>Placement and inconsistency of "exit" and "back" buttons.</b></li>
+                                </ul>
+                                <section>
+                                    <p>The 'x' to close out the system is located in the right upper corner of the screen. If a user returns to the main menu screen after looking at a specific body system, they are unable to close out the program using this 'x'. Additionally, the arrow to return to the previous menu screen is located on the upper right of the radial menu, giving users a conflicting conceptual model of how to navigate between menus.</p>
+                                </section>
+
+
+                                <h3>Solution:</h3>
+                                <section>
+                                    <p>The first iteration:</p>
+                                    <img src="assets/menuCVSbutton.PNG" alt="first design iteration">
+                                    <img src="assets/subSk.PNG">
+                                    <ul>
+                                        <li>Buttons to access submenus were enlarged in adherence with Fitt's Law.</li>
+                                        <li>Labels were added to body systems to reduce cognitive load of the user and reliance on recall.</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <p>Second iteration</p>
+                                    <img src="assets/Cardio.PNG" alt="second iteration of redesign">
+                                    <img src="assets/redsub.PNG" alt="second iteration design of sub skeletal menu.">
+                                    <ul>
+                                    <li>Menu selections were placed on the right side of the screen to make use of the infinite edge in compliance with Fitt's Law.
+                            </li>
+                                    <li>On main menu, images clearly refinforced topic of menu selection when hovering, providing the user good information about the state of the system</li></ul>
+                                    <li>The 'x' was left in the top right corner, and the back arrow was relocated to the top left corner. This allows for more natural mapping when navigating between menus. Additionally, the arrow only appears when on the submenu as it has no function on the main menu.</li>
+                                    <li>General information about the body system was given on the screen of the submenu to provide users with additional content.</li>
+                                    <li>A language option was added to the main menu as it was previously accessed by navigating through three different screens.</li>
+                                    <p>For the screen specific to body systems:</p>
+                                    <ul>
+                                        <li></li>
+                                        <li>Poor error recovery </li>
+                                        <li>An overwhelming amount of buttons each with individual functions. </li>
+                                    </ul>
+                                </section>
+                    </div>
+                
+                <div>
+                        <h3>For screen specific to body systems:</h3>
+                                <img src="assets/10-selecting1-RUN.jpg" alt="original body system specific menu">
+                    <img src="assets/10-selecting1-RUN(grab%20forehead).jpg" alt="original body system specific menu">
+                                <ul>
+                                    <li><b>Entire application frequently closed in error.</b></li>
+                                </ul>
+
+
+                                <section>
+                                    <p>The vertical menu was placed along the left edge of the screen. When a user selected the top most button 'X', the entire application closed. This was inconsistent with the main menu layout, and caused a mismatch in a users conceptual model. The correct selection to return to the previous screen was located four icons below this and had a 3x3 grid layout, which does not reflect the layout of the main menu.</p>
+                                </section>
+                                
+
+                                <ul>
+                                    <li><b>An overwhelming amount of buttons each with individual functions.</b></li>
+                                </ul>
+                    <img src="assets/menu.png" alt="list of menus and functions on original design">
+                                <section>
+                                    <p>There were 14 buttons, each with different functions. These buttons were difficult to distinguish and decreased learnability for a novice user. </p>
+                                </section>
+                    <ul>
+                                    <li> <b>Poor error recovery</b></li>
+                                </ul>
+
+                                <section>
+                                    <p>If a user deleted an item, they were unable to undo this action without resetting the image.</p>
+                                </section>
+
+
+                                <h3>Solution:</h3>
+                                <section>
+                                    
+                                    <img src="assets/sysredes.PNG">
+                                    <ul>
+                                        <li>Option to exit system was removed from this screen and implemented only in the main menu.</li>
+                                        <li>Back arrow was implemented to return to previous screen instead of icon.</li>
+                                        <li>An undo option was implemented to aid in error recovery.</li>
+                                        <li>The 14 functions were condensed into nine main functions and grouped by similar tasks.</li>
+                                    </ul>
+                                </section>  
+                    <h2>User Testing</h2>
+                    <p>User testing is currently being carried out on the redesigned interface. The following metrics will be uses:</p>
+                    <li>Task completion rate (effectiveness)</li>
+                    <li>Efficiency (Time on task)</li>
+                    <li>Usability (Post&ndash;Study System Usability Questionnaire</li>
+                    </div>
+                
+                </div>
+                
+                     
+                    <div class="myRole">
+                        <h2>My Role</h2>
+                        <p>Over the course of the project, I was individually responsible for:</p>
+                        <ul>
+                            <li>Heuristic evaluation of the original interfacce</li>
+                            <li>Sketches and wireframes</li>
+                            <li>Creation of mid-fidelity prototype of redesign</li>
+                        </ul>
+                    </div>
+                    <div class="summary">
+                        <h2>Summary</h2>
+                        <p>This project was a great opportunity to work with developers in the early stages of product development. It was easy to get caught up in the scope of the project, but ultimately it was important to focus on navigation and reducing crucial errors for users. </p>
+                    </div>
+
+                    <a id="button" href="https://5uyaqw.axshare.com/#g=1&p=page_3">See the protoype</a>
+                </div>
+            </div>
+            <footer>&copy;2018 Tara O'Grady</footer>
+    </main>
+    <script>
+        AOS.init({
+            duration: 1000,
+        })
+
+    </script>
+</body>
+
+
+</html>
