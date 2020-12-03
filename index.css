@@ -139,13 +139,13 @@ header table {
 .social:hover { 
     cursor: pointer;
     color:#fff;
-    background:rgb(13, 152, 186);
+    background:rgb(36, 37, 130);
     box-shadow:0px 10px 30px rgba(36, 37, 130,0.8);
 }
 .btn_one {
     font-size:18px;
     font-family: 'Poppins', sans-serif;
-    color:rgb(13, 152, 186);
+    color:rgb(36, 37, 130);
     background:#fff;
     border:3px solid rgb(36, 37, 130);
     padding:8px 40px;
@@ -159,7 +159,7 @@ header table {
     box-shadow:0px 10px 30px rgba(36, 37, 130, 0.8);
     cursor:pointer;
     color:#fff;
-    background:rgb(13, 152, 186);
+    background:rgb(36, 37, 130);
 }
 #rightImage {
     width:100%;
