@@ -103,7 +103,7 @@ header table {
     border:2vh solid #fff;
 }
 #top_part tr td{
-    width:50%;
+    width:100%;
 }
 #about {
     width:84% !important;
