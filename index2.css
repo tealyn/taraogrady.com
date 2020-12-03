@@ -209,10 +209,6 @@ header table {
   background-color: rgb(36, 37, 130);
 }
 
-.container:hover .overlay {
-  opacity: 1;
-}
-
 .text {
   color: white;
   font-size: 20px;
