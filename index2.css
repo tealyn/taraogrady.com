@@ -195,6 +195,9 @@ header table {
 #photos img:hover {
     transform: scale(1.1);
     cursor: pointer;
+    opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(36, 37, 130);
 }
 .overlay {
   position: absolute;
@@ -204,9 +207,7 @@ header table {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgb(36, 37, 130);
+  
 }
 
 .text {
