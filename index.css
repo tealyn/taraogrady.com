@@ -344,7 +344,7 @@ button:focus {
     width:60%;
     margin:4vh auto;
     box-shadow:0px 10px 20px rgba(36, 37, 130, 0.8);
-    background:rgb(255, 44, 90);
+    background:rgb(36, 37, 130);
     color:#fff;
     }
     .btn_one:hover {
