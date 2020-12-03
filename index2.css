@@ -70,7 +70,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
-    color:rgb(255, 44, 90);
+    color:rgb(36, 37, 130);
     cursor:pointer;
 }
 #img_here {
@@ -139,7 +139,7 @@ header table {
 .social:hover { 
     cursor: pointer;
     color:#fff;
-    background:rgb(255, 44, 90);
+    background:rgb(36, 37, 130);
     box-shadow:0px 10px 30px rgba(36, 37, 130,0.8);
 }
 .btn_one {
@@ -159,7 +159,7 @@ header table {
     box-shadow:0px 10px 30px rgba(36, 37, 130, 0.8);
     cursor:pointer;
     color:#fff;
-    background:rgb(255, 44, 90);
+    background:rgb(36, 37, 130);
 }
 #rightImage {
     width:100%;
