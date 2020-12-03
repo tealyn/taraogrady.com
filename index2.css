@@ -192,12 +192,10 @@ header table {
     margin:4.5% 0px;
     transition:0.4s ease-in-out;
 }
-#photos img:hover {
+#photos img:hover .overlay{
     transform: scale(1.1);
     cursor: pointer;
-    opacity: 0;
-  transition: .5s ease;
-  background-color: rgb(36, 37, 130);
+   
 }
 .overlay {
   position: absolute;
