@@ -125,6 +125,7 @@ header table {
 #about table tr td {
     width:20% !important;
     text-align:left;
+    padding-top:8px;
 }
 .social {
     color:rgb(36, 37, 130);
