@@ -104,6 +104,8 @@ header table {
 }
 #top_part tr td{
     width:50%;
+    vertical-align: top;
+    padding: 8px;
 }
 #about {
     width:84% !important;
